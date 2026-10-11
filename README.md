@@ -17,4 +17,4 @@ M.Tech Data Science, IIT Jammu (2022) · [bysahil.dev](https://bysahil.dev) · [
 - **pytest-asyncio** [#1444](https://github.com/pytest-dev/pytest-asyncio/pull/1444): makes `function` the default asyncio fixture loop scope and removes a deprecated fallback, with regression tests. Reviewed by maintainers, scheduled for v2.0 (open)
 
 ### Teaching
-TA at IIT Jammu (2020–2022): Machine Learning, Probability & Statistics, Information Theory, Discrete Mathematics.
+TA at IIT Jammu (2020–2022): Machine Learning, Probability & Statistics, Information Theory, Operating Systems, Discrete Mathematics.
