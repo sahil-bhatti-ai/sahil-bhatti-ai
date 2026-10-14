@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="66" viewBox="0 0 900 66" role="img" aria-labelledby="t d">
+<title id="t">A quiet terminal cursor</title>
+<desc id="d">A single line: read, test, find mistakes, try again. The cursor blinks slowly.</desc>
+<rect width="900" height="66" fill="#f7f7f2"/>
+<rect x=".5" y=".5" width="899" height="65" fill="none" stroke="#d4d6ce"/>
+<text x="19" y="42" fill="#58675e" font-family="monospace" font-size="17">$</text>
+<text x="39" y="42" fill="#303c38" font-family="monospace" font-size="17">read -&gt; test -&gt; find mistakes -&gt; try again</text>
+<rect x="505" y="27" width="10" height="18" fill="#637b67">
+<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.8s" repeatCount="indefinite"/>
+</rect>
+</svg>
