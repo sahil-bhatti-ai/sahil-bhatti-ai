@@ -1,20 +1,45 @@
-# Sahil Bhatti
+# hi, i'm sahil.
 
-Machine learning, with a focus on making AI systems trustworthy and secure —
-from how models are evaluated to how they leak and fail on real hardware.
+I studied Computer Science and then did my M.Tech in Data Science at IIT Jammu.
 
-M.Tech Data Science, IIT Jammu (2022) · [bysahil.dev](https://bysahil.dev) · [LinkedIn](https://www.linkedin.com/in/sahil-bhatti-ai/) · [email](mailto:iamsahil.bhatti.official@gmail.com)
+I like Python, Linux, and machine learning. I am interested in what happens when a model works on test data but does not work well on new data.
 
-### Now
-- Fault-injection (bit-flip) attacks on quantized CNNs and low-overhead defenses (in progress)
+![A small hand-drawn-style plot showing training and new data distributions](assets/shift-notes.svg)
 
-### Selected work
-- **Encrypted traffic classification (M.Tech thesis).** 12 classifiers on 18,490 campus-network flows;
-  Gradient Boosting reached 96% accuracy, but address features and random splits likely inflate it —
-  limits documented openly in a revised edition. → [write-up](https://bysahil.dev/research/encrypted-traffic-classification) · [Thesis summary (1 page)](https://bysahil.dev/thesis-summary) · [Full revised edition (42 pages)](https://bysahil.dev/thesis)
+### what i'm learning
 
-### Open source
-- **pytest-asyncio** [#1444](https://github.com/pytest-dev/pytest-asyncio/pull/1444): makes `function` the default asyncio fixture loop scope and removes a deprecated fallback, with regression tests. Reviewed by maintainers, scheduled for v2.0 (open)
+My main interest now is **reliable machine learning under distribution shift**.
 
-### Teaching
-TA at IIT Jammu (2020–2022): Machine Learning, Probability & Statistics, Information Theory, Operating Systems, Discrete Mathematics.
+I am still at the beginning of this area. These are the things I want to understand better:
+
+- Why models fail when data changes
+- How to know when a model is not sure
+- How to test models properly and find failures
+- How models can adapt to new data
+
+Later I also want to study these problems in **LLMs and AI agents**. For now, I am building my basics and planning small experiments. I would rather understand a small experiment well than make a big claim about it.
+
+### some things i worked on
+
+- **[M.Tech thesis: encrypted network traffic classification](https://bysahil.dev/research/encrypted-traffic-classification)**. I collected traffic data for seven applications and compared different classifiers. Some results looked good, but I later found limitations in the evaluation. I wrote about them in a [revised thesis](https://bysahil.dev/thesis) and a [one-page summary](https://bysahil.dev/thesis-summary). This is one reason I became interested in reliable evaluation.
+- **[pytest-asyncio pull request #1444](https://github.com/pytest-dev/pytest-asyncio/pull/1444)**. I submitted a change to the default fixture loop scope, with tests. The PR is still open.
+- **[Data quality and ML evaluation pipeline](https://github.com/sahil-bhatti-ai/python-postgresql-data-quality-ml-pipeline)**. A Python and PostgreSQL project for checking data, saving clean records, and calculating evaluation metrics.
+- **[Linux system test framework](https://github.com/sahil-bhatti-ai/linux-system-test-framework)**. A small Python/C++ project for running checks and writing test reports.
+
+I also worked as a teaching assistant during my M.Tech. I helped with tutorials, labs, and checking assignments.
+
+### tools
+
+`Python` · `C++` · `Linux` · `PostgreSQL` · `pytest` · `FastAPI`
+
+Currently learning more `PyTorch` and ML experiment design.
+
+### looking ahead
+
+I hope to apply for funded PhD positions in **2027**. I am also open to helping with small research tasks and learning from people who work on ML reliability.
+
+I don't have everything figured out yet. I am reading, trying things, making mistakes, and learning slowly.
+
+![A plain terminal line with a blinking cursor](assets/quiet-terminal.svg)
+
+[website](https://bysahil.dev) · [linkedin](https://www.linkedin.com/in/sahil-bhatti-ai/) · [email](mailto:iamsahil.bhatti.official@gmail.com)
